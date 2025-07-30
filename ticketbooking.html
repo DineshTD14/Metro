@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>ticket booking</title>
+    </head>
+    <body>
+        <header>
+            <div style="display: flex;gap: 300px;">
+            <img src="metroprojectimages/chennai-metro-rail-limited.png" alt="" width="200" height="50"/>
+            <center><b> QR ticket booking/Travel card recharge</b></center>
+            <input type="date"/>
+            </div><br><br>
+            <center><div style="font-size: larger;">
+                  <a href="waze.html" target="_blank"> Home</a> |
+                  <a href="#network">network</a> |
+                  <a href="ticketbooking.html" target="_blank">Ticket</a> |
+                  <a href="connection" target="_blank">feedback</a> |
+                  <a href="safety.html" target="_blank">security</a>
+
+            </div>
+            </center><br>
+        </header>
+        <section>
+            <div style="display: flex;gap: 200px;">
+                <img src="metroprojectimages/tickets.jpg" alt="ticketlogo" width="1000" height="600">
+                <form method="post" action="waze.html" enctype="multipart/form-data">
+                    <h2>QR ticket booking</h2>
+                    <label style="font-size: 25;"><b>origin :</b></label><br>
+                    <select required>
+                        <option value="">select origin </option>
+                        <option value="">guindy</option>
+                        <option value="">alandhur</option>
+                        <option value="">ashok nagar</option>
+                        <option value="">saidapet</option>
+                        <option value="">central metro</option>
+                    </select><br><br>
+                    <label for="destination"><b>Destination :</b></label><br>
+                    <select required>
+                        <option value="">destination</option>
+                        <option value="">alandhur</option>
+                        <option value="">ashok nagar</option>
+                        <option value="">saidapet</option>
+                        <option value="">guindy</option>
+                        <option value="">central metro</option>
+                    </select><br><br>
+                    <label><b>Mobile number :</b></label><br>
+                    <input type="number" required><br><br>
+                    <label><b>Ticket type :</b></label><br>
+                    <select required>
+                        <option>single journey</option>
+                        <option>Return</option>
+                    </select><br><br>
+                    <label>No of tickets :</label><br>
+                    <input type="number" value="1" min="1" max="10"/><br>
+                    <input type="submit" value="makepayment"/>
+                    
+                    
+
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
